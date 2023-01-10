@@ -16,5 +16,5 @@ async def measure_runtime() -> float:
     taking_time = time.perf_counter()
 
     alls = taking_time - start
-    
+
     return alls
